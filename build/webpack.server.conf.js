@@ -9,7 +9,7 @@ baseConfig.module.rules[1].options = ''
 module.exports = merge(baseConfig, {
   target: 'node',
   devtool: '#source-map',
-  entry: './src/entry-server.js',
+  entry: './src/entry-server.ts',
   output: {
     libraryTarget: 'commonjs2'
   },
