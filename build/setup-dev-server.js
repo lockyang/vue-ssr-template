@@ -3,7 +3,7 @@ const path = require('path')
 const MFS = require('memory-fs')
 const webpack = require('webpack')
 const chokidar = require('chokidar')
-const clientConfig = require('./webpack.prod.conf')
+const clientConfig = require('./webpack.client.conf')
 const serverConfig = require('./webpack.server.conf')
 
 const readFile = (fs, file) => {

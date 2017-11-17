@@ -5,6 +5,18 @@ import App from './App.vue'
 import createRouter from './router'
 import createStore from './store'
 
+import {
+  Button as ElButton,
+  Container as ElContainer,
+  Main as ElMain,
+  Aside as ElAside
+} from 'element-ui'
+
+Vue.use(ElButton)
+Vue.use(ElContainer)
+Vue.use(ElMain)
+Vue.use(ElAside)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

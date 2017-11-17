@@ -3,14 +3,14 @@ const state = {
 }
 
 const actions = {
-  CHANGE_COUNT ({ commit, state }, payload) {
-    console.log({ commit, state }, payload)
+  CHANGE_COUNT ({ commit, state }: any, payload: any) {
+    // console.log({ commit, state }, payload)
     commit('CHANGE_COUNT', payload)
   }
 }
 
 const mutations = {
-  CHANGE_COUNT (state, payload) {
+  CHANGE_COUNT (state: any, payload: any) {
     state.count = payload.count
   }
 }
